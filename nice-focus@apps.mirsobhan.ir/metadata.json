@@ -1,0 +1,9 @@
+{
+  "name": "Nice on Focus",
+  "description": "change the nice of focused windows",
+  "uuid": "nice-focus@apps.mirsobhan.ir",
+  "url":"https://github.com/MirS0bhan/nice-focus",
+  "shell-version": [
+  "47","48","49"
+  ]
+}

@@ -19,7 +19,7 @@ import { Extension } from "resource:///org/gnome/shell/extensions/extension.js";
 import * as Main from "resource:///org/gnome/shell/ui/main.js";
 import GLib from "gi://GLib";
 
-export default class PlainExampleExtension extends Extension {
+export default class NiceFocusExtension extends Extension {
 	enable() {
 		this._previousPid = null;
 

@@ -1,7 +1,7 @@
 on:
   push:
     tags:
-      - '*' # change to 'v*' to only trigger on tags that start with "v"
+      - '*'
 
 jobs:
   package-and-upload:
@@ -14,8 +14,7 @@ jobs:
       - name: Package and Upload GNOME Extension
         uses: murar8/gnome-extensions-action@aad5516b92eeed1014a06a6e7d47d34c96fd82c5
         with:
-          source-dir: sanad@apps.mirsobhan.ir
-          extra-source: sanad.ns.csv
+          source-dir: nice-focus@apps.mirsobhan.ir
           username: misano
           password: ${{ secrets.GNOME_PASSWORD }}
           accept-tos: true

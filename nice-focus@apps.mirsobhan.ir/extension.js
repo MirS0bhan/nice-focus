@@ -30,7 +30,7 @@ export default class NiceFocusExtension extends Extension {
 
 				const currentPid = window.get_pid();
 
-				if (_previousPid === currentPid) return;
+				if (this._previousPid === currentPid) return;
 
 				if (this._previousPid && this._previousPid !== currentPid) {
 					this._reniceProcessTree(this._previousPid, 19);
